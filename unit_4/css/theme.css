@@ -1,0 +1,32 @@
+body {font-family: Roboto, Arial, sans serif; 
+	 color: #6E7783;
+}
+
+h1 {
+	font-family: Domine;  
+	color: #77AAAD; 
+}
+
+img { 
+}
+
+#navigation {
+	width: 100%;
+}
+.nav-link {
+	display: block;
+	width: 33.33%;
+	float: left;
+}
+
+#homepage_image {
+	display: block; 
+	width: 100%;
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
