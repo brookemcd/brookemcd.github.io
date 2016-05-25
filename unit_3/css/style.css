@@ -5,6 +5,32 @@ body {font-family: Roboto, Arial, sans serif;
 h1 { color: #77AAAD; 
 }
 
-img { width: 400px;
+img { 
 }
 
+#navigation {
+	width: 100%;
+}
+.nav-link {
+	display: block;
+	width: 33.33%;
+	float: left;
+}
+
+#homepage_image {
+	display: block; 
+	width: 100%;
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	max-width: 800px;
+
+}
