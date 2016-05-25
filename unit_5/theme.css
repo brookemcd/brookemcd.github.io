@@ -1,0 +1,56 @@
+body {font-family: Roboto, Arial, sans serif; 
+	 color: #6E7783;
+}
+
+h1 {
+	font-family: Domine;  
+	color: #77AAAD; 
+}
+h4 {
+	font-family: Domine;
+	color; #77AAAD;
+}
+
+img { 
+}
+
+#navigation {
+	background-color: #E8C66A;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-link {
+	display: block;
+	width: 20%;
+	float: left;
+}
+
+#homepage_image {
+	display: block; 
+	width: 100%;
+}
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul {
+	list-style: none;
+}
+
+.article {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	max-width:800px;
+	margin: 0 auto;
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
+}
