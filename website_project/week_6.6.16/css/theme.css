@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main_wrapper {
+	margin: 1%;
+	padding: 1%;
+}
+
+body {font-family: Roboto, Arial, sans serif; 
+	 color: #6E7783;
+	 margin: 2px;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 font-size: 16px;
+	 clear: both;
+
+}
+
+h1 {
+	font-family: Domine;  
+	color: #77AAAD; 
+}
+
+h2 {
+	font-family: Domine;  
+	color: #ffffff; 
+	text-align: center;
+}
+
+h3 {
+	font-family: Domine;
+	color:#6E7783;
+	padding-top: 8px;
+}
+
+h4 {
+	font-family: Domine;
+	color: #77AAAD;
+}
+
+#navigation {
+	width: 100%;
+	background-color: #9dc3c1;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.nav-link {
+	display: block;
+	width: auto;
+	display:inline-block;
+	padding: 2px;
+	margin: 12px 24px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #6E7783;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9dc3c1;
+	padding: 5px;
+	text-align: center;
+	font-size: large;
+	color: #ffffff;
+	clear: both;
+}
+
+img { 
+}
+
+
+#homepage_image {
+	display: block; 
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+.section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	max-width:800px;
+	margin: 0 auto;
+}
+
+#hero_image {
+	height: 1200px;
+	background-image: url("../images/homepage_image_3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 600px;
+}
+
+#body_copy{
+	border-radius: 45px;
+    border: 5px solid #ffffff;
+    width: 900px;
+    height: 140px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto, Arial, sans serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.strategy {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	max-width:400px;
+	margin: 100px;
+	display: inline-block;
+}
+
+#strategy_left_box {
+	float: left;
+}
+
+#strategy_right_box {
+	float: right;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
