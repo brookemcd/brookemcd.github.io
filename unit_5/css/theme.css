@@ -1,3 +1,13 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {font-family: Roboto, Arial, sans serif; 
 	 color: #6E7783;
 }
@@ -5,34 +15,34 @@ body {font-family: Roboto, Arial, sans serif;
 h1 {
 	font-family: Domine;  
 	color: #77AAAD; 
-	background-color: #FFED74;
 }
-
 h4 {
 	font-family: Domine;
-	color; #77AAAD;
+	color: #77AAAD;
+}
+
+ul {
+	list-style: none;
 }
 
 img { 
 }
 
 #navigation {
-	background-color: #E8C66A;
-	max-width:800px;
-	margin: 0 auto;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .nav-link {
-	/*display: block;
-	width: 50%;
-	float: left;*/
-	display: inline-block;
+	display: block;
+	width: 33.33%;
+	float: left;
 }
 
 #homepage_image {
 	display: block; 
-	width: 10%;
-	align-content: center;
+	width: 1000%;
 }
 
 .clear:after{
@@ -41,19 +51,10 @@ img {
 	clear: both;
 }
 
-ul {
-	list-style: none;
-}
-
-article {
+.section {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
 	max-width:800px;
 	margin: 0 auto;
-	background-color: #E89C6C;
-}
-
-footer {
-	background-color: #FF957E;
 }
